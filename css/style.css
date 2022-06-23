@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300;700&display=swap");
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Tajawal", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    padding-right: 300px;
+}
+
+header .logo h4 {
+    font-family: "Lalezar", cursive;
+    font-size: 22px;
+}
+
+header .logo i {
+    padding-left: 10px;
+}
+
+header .nav_menu ul {
+    list-style: none;
+    display: flex;
+    margin-left: 250px;
+    text-decoration: none;
+}
+
+header .nav_menu ul li a {
+    text-decoration: none;
+    padding-left: 70px;
+    color: #818289;
+    font-family: "Tajawal", sans-serif;
+
+}
+
+header .nav-link:hover {
+    color: #6e0aef;
+}
+
+main {
+    background-color: #e6e6e7;
+
+}
+
+/* HERO */
+
+.hero {
+    background-color: #e6e6e7;
+}
+
+.hero-section {
+    max-width: 1366;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 99vh;
+
+}
+
+.hero-section .content {
+    padding-right: 300px;
+}
+
+.hero-section .hero-image {
+    margin-left: 190px;
+}
+
+.hero-section .content h4 {
+    color: rgb(137, 61, 208);
+    font-size: 22px;
+    margin-bottom: 0px;
+    font-family: "Tajawal", sans-serif;
+}
+
+.hero-section .content h1 {
+    font-weight: 900;
+    font-family: "Tajawal", sans-serif;
+    width: 600px;
+    font-size: 2rem;
+    margin: 0px;
+}
+
+.hero-section .content p {
+    color: #4d4d51;
+    width: 400px;
+    font-family: "Tajawal", sans-serif;
+    font-size: 15px;
+}
+
+.hero-section .content span {
+    font-family: "Tajawal", sans-serif;
+    color: rgb(137, 61, 208);
+}
+
+.btn {
+    background-color: #6e0aef;
+    border: none;
+    padding: 10px 28px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn a {
+    padding: 0 auto;
+    text-decoration: none;
+    color: azure;
+    font-family: "Tajawal", sans-serif;
+    font-size: 16px;
+
+}
+
+.btn:hover {
+    background-color: #a369f0;
+
+}
+
+/* features */
+section.features {
+    background-color: #e6e6e7;
+    padding-right: 300px;
+
+}
+
+.features .features-section h4 {
+    color: #6e0aef;
+    font-family: "Tajawal", sans-serif;
+    font-size: 22px;
+
+}
+
+.qualities {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+
+}
+
+.qualities .quality {
+    background-color: white;
+    padding: 10px;
+    width: 212px;
+    border-radius: 7px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.quality i {
+    color: #6e0aef;
+    padding-right: 83px;
+    font-size: 28px;
+    padding-top: 10px;
+}
+
+.quality h3 {
+    font-size: 20px;
+    font-family: "Tajawal", sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.quality p {
+    font-size: 15px;
+    color: #4d4d51;
+    font-family: "Tajawal", sans-serif;
+    text-align: center;
+}
+
+.quality:hover {
+    border: 2px solid #6e0aef;
+
+}
+
+/* newest-phones */
+
+.newest-phones {
+    padding-top: 10px;
+}
+
+.newest-phones .phones-section {
+    max-width: 1366;
+    padding-right: 300px;
+
+}
+
+.phones-section h4 {
+    color: #6e0aef;
+    font-family: "Tajawal", sans-serif;
+}
+
+.newest-phones .phones-section .phones-1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 370px;
+}
+
+.newest-phones .phones-section .phones-1 h3 {
+    padding-right: 0px;
+}
+
+.newest-phones .phones-section .phones-1 .iPhone {
+    padding-right: 25px;
+}
+
+
+.newest-phones .phones-section .phones-2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 348px;
+}
+
+.newest-phones button {
+    margin-right: 640px;
+    margin-top: 55px;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #e6e6e7;
+    margin-top: 70px;
+    padding: 10px;
+    height: 15vh;
+    padding-right: 620px;
+}
+
+.footer-section {
+    padding-top: 20px;
+}
+
+.footer-section p {
+    font-family: "Tajawal", sans-serif;
+    color: black;
+}
+
+.footer-section .socials {
+    padding-right: 100px;
+}
+
+.footer-section .socials i {
+    padding-left: 10px;
+}
+
+.footer-section .socials i {
+    color: black;
+}
+
+.footer-section .socials i:hover {
+    color: #7b25eb;
+}
+
+
+/* responsive design */
+@media (max-width: 1444px) {
+    * {
+        font-size: 85%;
+    }
+
+    .features-section .qualities {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1242px) {
+    .hero-image {
+        display: none;
+        text-align: center;
+    }
+
+
+}
+
+@media (max-width: 1445px) {}
+
+@media (max-width: 1430px) {
+    .phones-section .btn {
+        padding-left: 150px;
+
+    }
+}
